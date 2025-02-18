@@ -27,4 +27,5 @@ Dari contoh diatas 3825 di dapat dari 1357 + 2468.
 Setelah program menampilkan data digit, program akan menampilkan data angka yang berisi jumlah 
 angka ganjil dan jumlah angka. Dari contoh diatas jumlah angka ganjil adalah 4 yaitu angka 1, 3, 5, 7 
 dan jumlah angka genap adalah 4 yaitu 2, 4, 6, 8.
+
 ![image](https://github.com/user-attachments/assets/4d78aa99-2fb1-437e-b12b-5be8055c5f74)
