@@ -2,17 +2,42 @@
 ## Praktikum ITP M1
 
 ### No 1
-Buatlah program sederhana yang meminta inputan sebuah angka yang diasumsikan angka tersebut pasti terdiri dari 6 digit dan program akan membalikkan angka tersebut dan akan melakukan perhitungan dimana angka pertama dikalikan angka kedua, angka kedua dikalikan angka ketiga sampai angka keenam dikalikan dengan angka pertama. Tampilkan output hasil angka terbalik dan hasil akhir dari perhitungan tersebut!
-![image](https://github.com/user-attachments/assets/06f431cd-6ba8-47fd-8ba2-be8d9eb54f41)
+Buatlah program sederhana yang meminta inputan sebuah angka yang diasumsikan angka tersebut pasti terdiri dari 6 digit dan program akan membalikkan angka tersebut dan akan melakukan perhitungan dimana angka pertama dikalikan angka kedua, angka kedua dikalikan angka ketiga sampai angka keenam dikalikan dengan angka pertama. Tampilkan output hasil angka terbalik dan hasil akhir dari perhitungan tersebut! Contoh:
+```
+Masukkan angka  : 612234
+Angka terbalik  : 432216
+Hasil angka     : 4*3 + 3*2 + 2*2 + 2*1 + 1*6 + 6*4 = 54
+```
 
 ### No 2
-Mintalah 3 inputan bilangan. Bilangan pertama dan kedua menunjukkan sisi dari sebuah bangun, sedangkan bilangan ketiga menunjukkan jenis bangunnya. Jika bilangan ketiga bernilai 1, maka bangun tersebut adalah segitiga sama kaki. Jika bilangan tersebut bernilai 2, maka bangun tersebut adalah persegi panjang. Tanpa menggunakan selection dalam bentuk apapun, hitung dan tampilkan ke layar keliling dari bangun yang dimaksud!
-![image](https://github.com/user-attachments/assets/244a4e62-a06d-4381-92f8-a35cf12cbde5)
-![image](https://github.com/user-attachments/assets/8609c728-f986-4407-aafa-816ba00fa74a)
+Mintalah 3 inputan bilangan. Bilangan pertama dan kedua menunjukkan sisi dari sebuah bangun, sedangkan bilangan ketiga menunjukkan jenis bangunnya. Jika bilangan ketiga bernilai 1, maka bangun tersebut adalah segitiga sama kaki. Jika bilangan tersebut bernilai 2, maka bangun tersebut adalah persegi panjang. Tanpa menggunakan selection dalam bentuk apapun, hitung dan tampilkan ke layar keliling dari bangun yang dimaksud! Contoh:
+```
+Contoh Mode 1 (Segitiga Sama Kaki)
+Masukkan angka 1  : 12
+Masukkan angka 2  : 20
+Masukkan mode     : 1
+Keliling bangunan : 51.241
+
+Contoh Mode 2 (Persegi Panjang)
+Masukkan angka 1  : 12
+Masukkan angka 2  : 20
+Masukkan mode     : 2
+Keliling bangunan : 64
+```
 
 ### No 3
 Mintalah 2 inputan koordinat x dan y yang mewakili titik. Lalu tampilkan jarak antara kedua titik tersebut. Gunakan euclidean distance untuk mengetahui jarak antar titik!
-![image](https://github.com/user-attachments/assets/658e92c2-1079-4056-b840-b07a5df88ad4)
+```
+Jarak = ((y2 – y1)^2 + (x2 – x1)^2)^(1/2)
+```
+Contoh
+```
+x1  : 8
+y1  : 8
+x2  : 3
+y2  : 3
+Hasil  : 7.07107 
+```
 
 ### Tugas
 Buatlah program permainan angka berjudul “Let’s Play With Numbers”. Program ini akan meminta 1x inputan sepanjang 8 digit angka (diamsumsikan user akan selalu menginputkan angka sepanjang 8 digit). Setelah player menginputkan angka sebanyak 8 digit, program akan langsung menganalisa dan mengolah angka-angka tersebut.
